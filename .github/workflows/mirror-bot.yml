@@ -9,7 +9,7 @@ on:
 env:
   GitHubMail: ${{ secrets.GitHubMail }}
   GitHubName: ${{ secrets.GitHubName }}
-  BRANCH: "#3"
+  BRANCH: "master"
 jobs:
   debug:
     runs-on: ubuntu-20.04
